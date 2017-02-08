@@ -1,2 +1,2 @@
-# Andelab-Exercises-Day1
-All my assignments on day 1 Andela Bootcamp
+# Program to find the maximum and minimum elements of an array
+This is an assignment to write a simple  code snippet to find Min/Max of an array and run assertion tests using the Jasmine Library
