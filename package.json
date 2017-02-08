@@ -1,0 +1,26 @@
+{
+  "name": "array_program",
+  "version": "1.0.0",
+  "description": "Program to find Min/Max of an array",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avuidrauxs/AndelabDay1-Min-Max-Of-An-Array.git"
+  },
+  "keywords": [
+    "Andela",
+    "TIA"
+  ],
+  "author": "Audax Anchirinah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Avuidrauxs/AndelabDay1-Min-Max-Of-An-Array/issues"
+  },
+  "homepage": "https://github.com/Avuidrauxs/AndelabDay1-Min-Max-Of-An-Array#readme",
+  "dependencies": {
+    "jasmine": "^2.5.3"
+  }
+}
