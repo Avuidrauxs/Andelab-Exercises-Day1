@@ -23,12 +23,30 @@
         expect(myApp.findMinMax([4, 66, 6, 44, 7, 78, 8, 68, 2])).toEqual([2, 78]);
       });
 
+      //Tests i included
+       it('should return [25, 70] for [25, 25, 25, 44, 70, 78, 78, 68, 29]', function () {
+        expect(myApp.findMinMax([25, 25, 25, 44, 70, 78, 78, 68, 29])).toEqual([25, 78]);
+      });
+
+         it('should return [-25, 70] for [25, -25, 25, 44, 70, 78, 78, 68, 29]', function () {
+        expect(myApp.findMinMax([25, -25, 25, 44, 70, 78, 78, 68, 29])).toEqual([-25, 78]);
+      });
+
     });
 
     describe('Return the number in the list in a new list follows `[min]` when the number is the min and max number in that list', function () {
 
       it('should return [4] for [4, 4, 4, 4]', function () {
         expect(myApp.findMinMax([4, 4, 4, 4])).toEqual([4]);
+      });
+
+      //Test i included
+       it('should return [0] for [0, 0, 0, 0]', function () {
+        expect(myApp.findMinMax([0, 0, 0, 0])).toEqual([0]);
+      });
+
+         it('should return [-1] for [-1, -1, -1, -1]', function () {
+        expect(myApp.findMinMax([-1, -1, -1, -1])).toEqual([-1]);
       });
 
     });
