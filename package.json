@@ -4,7 +4,7 @@
   "description": "Program to find Min/Max of an array",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/jasmine/bin/jasmine tests.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Avuidrauxs/AndelabDay1-Min-Max-Of-An-Array#readme",
   "dependencies": {
-    "jasmine": "^2.5.3"
+    "jasmine": "^2.5.3",
+    "jasmine-node": "^1.14.5"
   }
 }
